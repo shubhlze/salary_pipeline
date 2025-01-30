@@ -3,3 +3,5 @@ steps:
   args: ['build', '-t', 'gcr.io/singular-willow-339022/mlimage', '.']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push','gcr.io/singular-willow-339022/mlimage' ]
+
+  #gcloud build submit --config couldbuild.yml 
